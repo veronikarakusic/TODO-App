@@ -10,8 +10,17 @@
     <div class="container">
         <div class="input">
             <input type="text" id="unos" placeholder="insert text">
+            
+            <label for="importance"></label>
+
+            <select name="importance" id="importance">
+                <option value="important" id="most">Important</option>
+                <option value="medium" id="medium">Medium importance</option>
+                <option value="least" id="least">Least important</option>
+            </select>
             <button onclick="insert()" id="button">add</button>
         </div>
+
         <ul id="text">
             
         </ul>
